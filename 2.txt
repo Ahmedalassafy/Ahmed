@@ -1,0 +1,32 @@
+{
+    "db": {
+        "name": "db"
+        , "connector": "memory"
+    }
+    , "localpostgres": {
+        "host": "sl-eu-lon-2-portal.1.dblayer.com"
+        , "port": 16061
+        , "database": "wb-core"
+        , "password": "AHTEVHFXOMHVENZN"
+        , "name": "wb-core"
+        , "user": "admin"
+        , "connector": "postgresql"
+    }
+    , "Gmail": {
+        "name": "Gmail"
+        , "defaultForType": "mail"
+        , "connector": "mail"
+        , "transports": [
+            {
+                "type": "SMTP"
+                , "host": "smtp.gmail.com"
+                , "secure": true
+                , "port": 465
+                , "auth": {
+                    "user": "support@widgetbrain.com"
+                    , "pass": "W1dgetBra1n"
+                }
+      }
+    ]
+    }
+}
